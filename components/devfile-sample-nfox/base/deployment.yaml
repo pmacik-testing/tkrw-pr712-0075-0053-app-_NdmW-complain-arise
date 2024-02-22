@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nfox
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0053-tenant/tkrw-pr712-0075-0053-app/devfile-sample-nfox@sha256:7bf1a902a20772d0b08c640e6d659cf92fbf85fdaa939cbe57ee81acaf20f1c8
         name: my-nodejs
         ports:
         - containerPort: 3001
